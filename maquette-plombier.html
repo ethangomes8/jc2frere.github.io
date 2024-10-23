@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquette - JC2freres Plombiers</title>
+    <link rel="stylesheet" href="maquette-plombier.css">
+</head>
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <div class="logo">
+            <a href="index.html">ACCUEIL</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#index">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#realisations">Nos Réalisations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Présentation -->
+    <section id="intro">
+        <h1>Bienvenue chez JC2freres Plombiers</h1>
+        <p>Experts en plomberie depuis de nombreuses années - Installation, Réparation et Entretien</p>
+        <a href="#contact" class="btn-primary">Contactez-nous</a>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <img src="imginstalation-plombier.jpeg" alt="Installation">
+                <h3>Installation</h3>
+                <p>Installation de systèmes de plomberie pour particuliers et professionnels.</p>
+            </div>
+            <div class="service-item">
+                <img src="imgreparation-plombier.jpeg" alt="Réparation">
+                <h3>Réparation</h3>
+                <p>Réparation rapide et efficace de tous vos problèmes de plomberie.</p>
+            </div>
+            <div class="service-item">
+                <img src="imgentetien-plombier.jpeg" alt="Entretien">
+                <h3>Entretien</h3>
+                <p>Entretien régulier pour éviter les fuites et prolonger la durée de vie de vos installations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section id="testimonials">
+        <h2>Nos avis clients</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-item">
+                <p>"Positif à 100%
+                    Réactivité, ponctuelle, qualité, professionnalisme.
+                    Écoute du client, je recommande."</p>
+                <h3>- Kroot</h3>
+            </div>
+            <div class="testimonial-grid-2">   
+                <a href="https://www.google.fr/maps/place/JC2FRERES/@49.4157989,2.8221936,17z/data=!4m8!3m7!1s0x47e7d76e90e6ee4d:0x7b7c850908d5eca2!8m2!3d49.4157989!4d2.8247685!9m1!1b1!16s%2Fg%2F11lf8kyvlt?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="avis-btn">
+                    Cliquez ici pour voir nos avis Google 
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="realisations">
+        <h2>Nos Réalisations</h2>
+        <div class="realisation-grid">
+            <div class="realisation-item photo-placeholder"></div>
+            <div class="realisation-item photo-placeholder"></div>
+            <div class="realisation-item photo-placeholder"></div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <div class="contact-grid">
+            <div class="social-media">
+                <h3>Voir nos réseaux</h3>
+                <a href="https://www.tiktok.com/@avtwebservice?_t=8qcRzyc2H1F&_r=1"><img src="imgtiktok 2.png" alt="Twitter"></a>
+                <a href="https://discord.com/channels/1285544892600156242/1285598788718690326/1295663334686720002"><img src="imginsta copie2.png" alt="Instagram"></a>
+                <a href=""><img src="imgfacebook copie2.png" alt="Facebook"></a>
+                <h4>(cliquez ici)</h4>
+            </div>
+
+            <div class="contact-item">
+                <h3>Adresse</h3>
+                <p>15 Rue du Président Sorel, 60200 Compiègne</p>
+            </div>
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p><a href="mailto:contact@plomberiexyz.com">jc2freres@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <h3>Téléphone</h3>
+                <p><a href="tel:+33123456789">03 44 40 70 37</a></p>
+            </div>
+        </div>
+        <form action="submit_form.php" method="POST" class="contact-form">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    
+
+    <!-- Appel à l'action -->
+    <section id="cta">
+        <h2>Besoin d'une intervention rapide ?</h2>
+        <a href="#contact" class="btn-primary">Contactez-nous maintenant</a>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 AvtWebServices - Tous droits réservés</p>
+    
+    </footer>
+
+</body>
+</html>
