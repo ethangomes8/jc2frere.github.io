@@ -20,6 +20,19 @@ header {
     position: relative;
 }
 
+.menu-toggle {
+    display: none; 
+    font-size: 2rem; 
+    cursor: pointer; 
+}
+
+nav ul {
+    display: flex; 
+    list-style: none; /
+    padding: 0; 
+    margin: 0; 
+}
+
 .animated-text {
     font-size: 2.5rem;
     margin-bottom: 0px;
